@@ -1,0 +1,37 @@
+taxonomy_id: CCN20230601
+brain_region_names:
+  - Basal Ganglia
+species_names:
+  - Macaca Mulatta
+
+fields:
+  - column_name: cluster_id
+    column_type: cluster_id
+    rank: 0
+
+  - column_name: cluster_label
+    column_type: cluster_name
+    rank: 0
+
+  - column_name: supertype_label
+    column_type: cell_set
+    rank: 1
+
+  - column_name: subclass_label
+    column_type: cell_set
+    rank: 2
+
+  - column_name: class_label
+    column_type: cell_set
+    rank: 3
+
+  - column_name: cluster.markers
+    column_type: marker_genes
+
+#  - column_name: region.info (Frequency)
+#    column_type: brain_region_name
+#    column_mapping: brain_region_name
+
+#  - column_name: NSForest F1 score
+#    column_type: marker_confidence_score
+#    column_mapping: marker_confidence_score
